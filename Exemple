@@ -1,0 +1,16 @@
+local CreateLoadingScreen = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolhub99/Linoria-Fanmade-Loading-Screen/refs/heads/main/Library.luau"))()
+
+CreateLoadingScreen({
+    Title = "Name Of Script",
+    Subtitle = "By: Lolhub99",
+    Duration = 4,
+    Steps = {
+        "Text",
+        "Text",
+        "Text",
+        "Done"
+    },
+    OnComplete = function()
+        print("Your Loadstring")
+    end
+})
